@@ -1,0 +1,15 @@
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\bin\Debug\Игровая Площадка.exe.config
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\bin\Debug\Игровая Площадка.exe
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\bin\Debug\Игровая Площадка.pdb
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая Площадка.csproj.AssemblyReference.cache
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая_Площадка.MainForm.resources
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая_Площадка.Properties.Resources.resources
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая Площадка.csproj.GenerateResource.cache
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая Площадка.csproj.CoreCompileInputs.cache
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая Площадка.exe
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая Площадка.pdb
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая Площадка.exe.config
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая_Площадка.PersForm.resources
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая_Площадка.RegForm.resources
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая_Площадка.AdminForm.resources
+C:\Users\igorn\source\repos\Игровая Площадка\Игровая Площадка\obj\Debug\Игровая_Площадка.SelectedForm.resources
