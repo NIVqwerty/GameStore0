@@ -32,6 +32,7 @@ namespace Игровая_Площадка
             creator = _creator;
             pic = new PictureBox();
             pic.Tag = name;
+
             try
             {
                 pic.Load("../../files/" + name + ".jpg");
@@ -81,12 +82,11 @@ namespace Игровая_Площадка
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < games.Count; i++)
-            { 
-                if(((PictureBox)sender).Tag == games[i].pic.Tag)
-                { 
+            {
+                if (((PictureBox)sender).Tag == games[i].pic.Tag)
+                {
                     PersForm pers = new PersForm(games[i]);
                     pers.ShowDialog();
-                    break;
                 }
             }
         }
@@ -151,23 +151,20 @@ namespace Игровая_Площадка
         void ReRead()
         {
             games.Clear();
-
-            string[] strs = File.ReadAllLines("../../files/games.txt");
+            string[] strs = File.ReadAllLines("../../Files/games.txt");
             foreach (string str in strs)
             {
                 string[] parts = str.Split(new string[] { ", " }, StringSplitOptions.None);
                 Game game = new Game(parts[0], parts[1], parts[2], parts[3], parts[4]);
                 games.Add(game);
-                
             }
-            MainForm_Resize(null, null);
 
-
+            ReDraw();
         }
 
         private void MainForm_Resize(object sender, EventArgs e)
         {
-            MainForm_Load(null,null);
+            
         }
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
@@ -302,19 +299,21 @@ namespace Игровая_Площадка
         private void AdminPanelButton_Click(object sender, EventArgs e)
         {
             AdminForm form = new AdminForm();
-            form.Show();
-           ReRead();
+            form.ShowDialog();
+            ReRead();
         }
 
         private void SelectedButton_Click(object sender, EventArgs e)
         {
             SelectedForm selectedForm = new SelectedForm();
             selectedForm.Show();
+            ReRead();
         }
 
         private void InfoPanel_Resize(object sender, EventArgs e)
         {
-            MainForm_Resize(null, null);
+            ReDraw();
+
         }
     }
 }
